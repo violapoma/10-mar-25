@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    max-height: 40px;
+    align-self: center;
+    padding: 1em;
+}
+
+header div {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: rgb(255, 174, 0);
+    background-color:#FDFBF1;
+    color: cadetblue;
+    text-align: center;
+    font-size: x-small;
+}
+
+.headerSpan {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+main h1 {
+    
+    align-self: center;
+    text-align: center;
+}
+
+.pComment {
+    align-self: center;
+    font-size: small;
+}
+
+#mainPic {
+    width: 600px;
+    height:450px;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 #BDBDBD;
+    align-self: center;
+}
+
+.pCredits {
+    font-size: small;
+    color: #9E9E9E;
+    align-self: center;
+}
+
+/* da allineare meglio*/ 
+.foundIn {
+    align-self: flex-start;
+    border-style: solid;
+    border-color: rgb(255, 174, 0);
+    border-width: 0 0 0 2px;
+    padding: 0 1em;
+   
+}
+.foundIn p {
+    text-transform: uppercase;
+    color: rgba(243, 150, 9, 0.839);
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.procedures {
+    padding: 2em 0 0 0;
+    width: 600px;
+}
+
+.procedures hr{
+    color: lightblue; 
+}
+
+.procedures li {
+    padding: 0.5em;
+}
+
+footer {
+    max-width: 600px;
+    margin: auto;
+    font-size: small;
+}
+
+a {
+    color: rgb(102, 176, 179);
+    font-weight: bold;
+}
