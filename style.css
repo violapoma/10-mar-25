@@ -1,3 +1,17 @@
+/**
+  * Changes to make the page more reponsive: 
+  * added the tag <body> to the stylesheet
+  * used the vh unit in tag <main> instead of px
+  * changed width from px tp % in #mainPic and reduced its height 
+  * moved the former <footer> into <main> and made it a <p> instead
+  */ 
+  body {
+    margin: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -25,48 +39,40 @@ header div {
 }
 
 main {
-    justify-content: center;
     display: flex;
-    flex-direction: column;
-    max-width: 600px;
+    flex-direction: column; 
+    max-width: 85vh;
     margin: auto;
 }
 
 main h1 {
-    
     align-self: center;
     text-align: center;
 }
-
 .pComment {
     align-self: center;
     font-size: small;
 }
-
 #mainPic {
-    width: 600px;
-    height:450px;
+    width: 100%;
+    height: 400px;
     padding: 0;
     margin: 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 #BDBDBD;
     align-self: center;
 }
-
 .pCredits {
     font-size: small;
     color: #9E9E9E;
     align-self: center;
 }
-
-/* da allineare meglio*/ 
 .foundIn {
     align-self: flex-start;
     border-style: solid;
     border-color: rgb(255, 174, 0);
     border-width: 0 0 0 2px;
-    padding: 0 1em;
-   
+    padding: 0 1em;   
 }
 .foundIn p {
     text-transform: uppercase;
@@ -75,26 +81,18 @@ main h1 {
     margin: 0;
     font-weight: bold;
 }
-
 .procedures {
     padding: 2em 0 0 0;
-    width: 600px;
 }
-
 .procedures hr{
     color: lightblue; 
 }
-
 .procedures li {
     padding: 0.5em;
 }
-
-footer {
-    max-width: 600px;
-    margin: auto;
+#footer {
     font-size: small;
 }
-
 a {
     color: rgb(102, 176, 179);
     font-weight: bold;
